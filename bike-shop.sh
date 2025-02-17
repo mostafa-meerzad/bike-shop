@@ -34,7 +34,7 @@ RENT_MENU() {
   else 
     # display available bikes
     echo -e "\nHere are the bikes we have available:"
-      echo "$AVAILABLE_BIKES"
+    echo "$AVAILABLE_BIKES"
 
     # ask for bike to rent
     # if input is not a number
