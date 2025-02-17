@@ -1,5 +1,7 @@
 #!/bin/bash
 
+PSQL="psql -X --username=freecodecamp --dbname=bikes --tuples-only -c"
+
 echo -e "\n~~~~~ Bike Rental Shop ~~~~~\n"
 
 MAIN_MENU() {
@@ -22,7 +24,9 @@ MAIN_MENU() {
 
 RENT_MENU() {
   # get available bikes
+
   # if no bikes available
+
   # send to main menu
 
 }
